@@ -1,0 +1,32 @@
+<!-- templates/signup.html -->
+{% load staticfiles %}
+<html>
+<head>
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+</head>
+
+<body>
+
+  <div align="center">
+{% block title %}  <h1>Sign up</h1>{% endblock %}
+</div>
+
+
+{% block content %}
+<div align="center">
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button type="submit">Sign up</button>
+  </form>
+  </div>
+{% endblock %}
+
+
+</body>
+</html>

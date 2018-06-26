@@ -1,0 +1,27 @@
+<!-- templates/signup.html -->
+<html>
+<head>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+</head>
+
+<body>
+  <div align="center" class='unique'>
+{% block title %}  <h1>Sign up</h1>{% endblock %}
+</div>
+
+<div align="left" background="#000">
+{% block content %}
+
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign up</button>
+  </form>
+{% endblock %}
+</div>
+
+</body>
+</html>

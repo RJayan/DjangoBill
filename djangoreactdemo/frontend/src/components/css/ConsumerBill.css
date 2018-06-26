@@ -1,0 +1,71 @@
+.rowofbilltable{
+  height: 3%;
+}
+.storenamedetailsconsumerpage{
+  font-size: 8px;
+  margin: 1% 0%;
+}
+.qr{
+   position:relative;
+   margin: 5% 0%;
+   bottom: 2%;
+   width:100%;
+  background-color: white;
+}
+.buttoncontainer{
+  align:center;
+  width-align:center;
+}
+.buttondownload{
+  width-align:center;
+  align:center;
+  background-color: rgb(0,76,153);
+  border: 1px solid black;
+  color: white;
+  padding: 2% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 3% 1%;
+
+}
+.adcontainer1{
+  margin: 2% 0% 0% 0%;
+}
+.topbillnav {
+    width: 100%;
+    background-color: rgb(32,32,32);
+    text-align: center;
+    overflow: hidden;
+}
+.store{
+  color: white;
+}
+.container{
+
+  margin: 5% 1%;
+  background-color: white;
+}
+.tableofbill{
+  border-collapse: collapse;
+  font-size: 10px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid black;
+}
+.datetime{
+   position:relative;
+
+   margin: 1% 1%;
+   bottom:0%;
+   text-align: center;
+   width:100%;
+   background: white;
+}
+.complete{
+  background-color: white;
+}
+.Bill{
+  width: 100%;
+}

@@ -1,0 +1,128 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.logout {
+    background-color: #555;
+    color: white;
+    float: right;
+    border: none;
+    outline: none;
+
+      display: inline-block;
+    padding: 0px 0px;
+    font-size: 20px;
+    width: 25%;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.posinputtext{
+    background-color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.posvirtualizedinputtext{
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.storenamedetails{
+
+}
+.productentry{
+  margin: 6px 0px 0px 0px;
+}
+.qrcode{
+    position: absolute;
+    top: 70%;
+    right: 200px;
+    width: 20%;
+    height: 180px;
+    border: 3px solid white;
+}
+
+.fullseperator{
+  width: 100%;
+}
+
+.leftside{
+  float:left;
+  margin-left: 10px;
+  width: 38%;
+}
+.storename{
+  text-align: center;
+  color: white;
+}
+.rightside{
+  float:right;
+  width: 60%;
+  background-color: white;
+}
+
+.endofseperator{
+  clear:both;
+}
+
+.button {
+    background-color: rgb(19,144,144);
+    border: 1px solid black;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.upcidinputid{
+  width:100%;
+}
+.billcontainer{
+  align:right;
+  padding: 5px 20px;
+}
+.billtable{
+  border: 3px solid black;
+  text-align: center;
+  width: 75%;
+}
+.inputcustomerdetails{
+  text-align:right;
+  margin-left:10px;
+  display:inline-block;
+  width:100%;
+}
+.verticalLine {
+  border-left: thick solid blue;
+  border-right: thick solid #ff0000;
+  height:auto;
+}

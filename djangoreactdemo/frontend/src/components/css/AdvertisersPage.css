@@ -1,0 +1,39 @@
+.uploadedimages{
+  padding: 2% 2% 1% 2%;
+}
+.ImageUploader{
+  background-color: white;
+}
+.inputbox{
+  background-color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  border-radius: 4px;
+
+}
+.inputtext{
+  background-color: white;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.Submitadbutton{
+    background-color: rgb(19,144,144);
+    border: 1px solid black;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 0px 0px 20px;
+    cursor: pointer;
+
+}
